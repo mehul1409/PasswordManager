@@ -1,0 +1,92 @@
+/* Container for the form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Form styling */
+  .form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Input fields styling */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Grouping input fields */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Submit button styling */
+  .form-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for the password list */
+  .password-list {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* No passwords message */
+  .no-passwords {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Header for the password list */
+  .password-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+  }
+  
+  /* Individual password items */
+  .password-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .password-item:last-child {
+    border-bottom: none;
+  }
+  
